@@ -2,13 +2,15 @@ package com.onlineexam.sdp_assignment1;
 
 public class CarDirector {
 
+    private static final String AUTOMATIC_TRANSMISSION = "Automatic";
+
     public Car createSportCar() {
         return new CarBuilder()
                 .setBrand("BMW")
                 .setModel("M5")
                 .setEngine("V8")
                 .setColor("Black")
-                .setTransmission("Automatic")
+                .setTransmission(AUTOMATIC_TRANSMISSION)
                 .setAirConditioning(true)
                 .setGps(true)
                 .build();
@@ -20,18 +22,19 @@ public class CarDirector {
                 .setModel("Camry")
                 .setEngine("2.5L")
                 .setColor("White")
-                .setTransmission("Automatic")
+                .setTransmission(AUTOMATIC_TRANSMISSION)
                 .setAirConditioning(true)
                 .setGps(false)
                 .build();
     }
+
     public Car createLuxuryCar() {
         return new CarBuilder()
                 .setBrand("Mercedes-Benz")
                 .setModel("S-Class")
                 .setEngine("V8")
                 .setColor("Silver")
-                .setTransmission("Automatic")
+                .setTransmission(AUTOMATIC_TRANSMISSION)
                 .setAirConditioning(true)
                 .setGps(true)
                 .build();
