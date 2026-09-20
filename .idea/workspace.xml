@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7b6ee72-2978-4da7-845f-3c6faff63978" name="Changes" comment="SDP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/CarConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/KiaInterior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/KiaSportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/SportKiaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/SportKiaEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/sport/SportKiaInterior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/KiaStandardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/StandardKiaCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/StandardKiaEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/abstractfactory/standard/StandardKiaInterior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/K5Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/KiaK5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/KiaSportage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/aitu/kia/factorymethod/SportageFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/CarDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/CarDirector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/SdpAssignment1Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/onlineexam/sdp_assignment1/SdpAssignment1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/CarBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/CarDirector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/onlineexam/sdp_assignment1/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,16 +65,20 @@
     &quot;accountId&quot;: &quot;d3d7d2d9-c0ca-48cc-a437-768f35f3f30e&quot;
   }
 }</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="3JGu8IZlma4WYXsVGkXOeH2yqXd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.main.executor": "Run",
     "Gradle.Build SDP_Assignment1.executor": "Run",
     "Gradle.SDP_Assignment1 [:com.onlineexam.sdp_assignment1.main.main()].executor": "Run",
@@ -68,11 +93,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.onlineexam.sdp_assignment1.main" />
       <module name="SDP_Assignment1.main" />
@@ -115,7 +143,11 @@
       <option name="presentableId" value="Default" />
       <updated>1789299567569</updated>
       <workItem from="1789299568915" duration="5882000" />
-      <workItem from="1789378095216" duration="399000" />
+      <workItem from="1789378095216" duration="496000" />
+      <workItem from="1789551636524" duration="318000" />
+      <workItem from="1789554895535" duration="706000" />
+      <workItem from="1789739876192" duration="25000" />
+      <workItem from="1789911536382" duration="2925000" />
     </task>
     <task id="LOCAL-00001" summary="SDP">
       <option name="closed" value="true" />
@@ -149,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789305423337</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SDP">
+      <option name="closed" value="true" />
+      <created>1789378549389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789378549389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
